@@ -1,0 +1,30 @@
+{
+  "name": "koa-mongodb-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV='development' && nodemon start.js",
+    "build": "set NODE_ENV='production' && nodemon start.js"
+  },
+  "keywords": [
+    "koa",
+    "node",
+    "mongodb"
+  ],
+  "author": "Allen Zheng",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-register": "^6.26.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.7.14",
+    "nodemon": "^2.0.1",
+    "url-parse": "^1.4.7",
+    "winston": "^3.2.1"
+  }
+}
