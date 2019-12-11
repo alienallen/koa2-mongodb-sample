@@ -4,10 +4,12 @@
 
 ## Build Setup
 
-
 ```bash
+# start mongodb
+mongod
+
 # clone the project
-git clone 
+git clone https://github.com/alienallen/koa2-mongodb-sample.git
 
 # enter the project directory
 cd koa2-mongodb-sample
@@ -17,14 +19,8 @@ npm install
 
 # develop
 npm run start
+
+# production
+npm run build
 ```
 
-## Build (TBC)
-
-```bash
-# build for test environment
-npm run build:stage
-
-# build for production environment
-npm run build:prod
-```
