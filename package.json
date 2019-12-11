@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set NODE_ENV='development' && nodemon start.js",
-    "build": "set NODE_ENV='production' && nodemon start.js"
+    "dev": "set NODE_ENV='development' && nodemon start.js",
+    "prod": "set NODE_ENV='production' && nodemon start.js"
   },
   "keywords": [
     "koa",

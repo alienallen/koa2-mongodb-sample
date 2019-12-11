@@ -18,9 +18,9 @@ cd koa2-mongodb-sample
 npm install
 
 # develop
-npm run start
+npm run dev
 
 # production
-npm run build
+npm run prod
 ```
 

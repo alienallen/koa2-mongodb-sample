@@ -20,7 +20,7 @@ app.use(cors({
 
 // log request URL
 app.use(async (ctx, next) => {
-  console.log(`Process ${ctx.request.method} ${ctx.request.url}...`)
+  logger.info(`Process ${ctx.request.method} ${ctx.request.url}...`)
   await next()
 })
 
